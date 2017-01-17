@@ -22,6 +22,6 @@ public class InputOnce {
 		System.out.println();
 
 		newClient = new Account(150, 100, 60, output1, output2);
-		newClient.showAddAndName();
+		newClient.showAll();
 	}
 }
