@@ -62,10 +62,11 @@ public class Account{
     }
     public void showAll()     {
         System.out.println("name = " + accountHolderName + "\n" + "adrress = " + accountHolderAddress);
-        System.out.println("balance = " + currentBalance + " credit = " + creditLimit);
+        System.out.println("your opening balance = " + openingBalance);
+        System.out.println("balance = " + currentBalance);
+         System.out.println("credit = " + creditLimit);
     }
     public void setName(String name){
-
     	accountHolderName = name;
     }
     public String getName() {
